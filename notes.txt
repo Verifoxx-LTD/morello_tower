@@ -1,0 +1,29 @@
+./run-scripts/run_model.sh -m /home/dsbd/FVP_Morello/models/Linux64_GCC-6.4/FVP_Morello -f android-nano
+
+cd out/target/product/morello/data/nativetest64/
+rm -r compartment-demo/
+adb -s 127.0.0.1 push out/target/product/morello/data/nativetest64/compartment-demo/ /data/nativetest64/compartment-demo/
+adb -s 127.0.0.1 shell
+
+2b36a4aba7887a884a6adfcbe5cb3a1e
+e2ba5d7e184f76b638687c8d12e02d02 - 1
+fbf9d022291b2eb1063ae8f6c716a963 - 2
+c7fd2021d73cb663b442f74b27d52b43 - 4
+a0634e4cdeda93d778e8521354378d2f - 8
+
+8943fdd8588682dd56093dafad6a26f7 - 128
+
+
+647362645f636865726900
+647362645f4b4b65726900
+617a7863406e6b69747100
+
+243132336676705f6e6f4b656c6c413132332400
+243132336676705f6d6f72656c6c6f3132332400
+71776572747975696f70617364646667686a6d00
+
+
+86c9517b2433896f2a086cafcd6d5b28 - C
+fb630b6f983418a94089d4b162351d13
+86c9517b2433896f2a086cafcd6d5b28 - B
+dfefbc6512af5d1eaf7e218ef4136774
